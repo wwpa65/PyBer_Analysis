@@ -2,46 +2,46 @@
 
 # Analysis of PyBer Ride Sharing Data
 
-Deliverable 3 Instructions
-
-Use your repository README file to write your analysis of how to address any disparities in the ride-sharing data among the city types.
-The analysis should contain the following:
-Overview of the analysis: Explain the purpose of the new analysis.
-Results: Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
-Summary: Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
-Deliverable 3 Requirements
-
-Structure, Organization, and Formatting (6 points)
-
-The written analysis has the following structure, organization, and formatting:
-There is a title, and there are multiple sections. (2 pt)
-Each section has a heading and subheading. (2 pt)
-Links to images are working and displayed correctly. (2 pt)
-Analysis (14 points)
-
-The written analysis has the following:
 ## Overview of the analysis
-Explain the purpose of the new analysis.
 
-The purpose of the new analysis is well defined. (3 pt)
+We have analyzed ride-share data (to visualize using different graphs such line, bar, or pie charts) with the aim to help PyBer improve access to ride-sharing services and determine affordability for underserved neighborhoods. The goal of this analysis was to create a summary DataFrame of the ride-sharing data by city type, and then to use Pandas and Matplotlib, for creating a multiple-line graph that shows the total weekly fares for each city type. The visualizations generated from this analysis will inform the trends and facilitate decisiuon making. 
 
-creating visualizations of rideshare data for PyBer to help improve access to ride-sharing services and determine affordability for underserved neighborhoods. 
+Software Tools Used: Python/ Pandas, Matplotlib, NumPy
 
-Using your Python skills and knowledge of Pandas, you’ll create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, you’ll create a multiple-line graph that shows the total weekly fares for each city type. 
-
-Software Used: Python/ Pandas, Matplotlib, NumPy
 ## Results
 
-There is a huge difference in the number of rides between city types (Rural (< Suburban < Urban)(See Figure 1 below). Therefore the earnings from the city types have larger gaps. 
+The overall ride-share data shows that there is a huge difference in the number of rides between city types (See **Figure 1** below).
+- The order for number of rides is (Rural (125) < Suburban (625) < Urban (1625)). 
+  Therefore the total fares from each of the city types have larger gaps.
+  
+- The average fare for a ride is highest among the rural rideshares. 
+  The trend forthe average fare is Rural ($34.62) > Suburban ($30.97) > Urban ($24.53). 
+  
+- The number of drivers depended on the number of rides. It follows the trend similar to the number of rides (Rural (78) < Suburban (490) < Urban (2405). 
+  It is interesting to see that there are more drivers than the number of rides among urban ride-shares. 
+  
+- The average fare per driver is highest among rural ride-shares whereas it is the lowest among urban ride shares (urban ($16.57) < suburban ($39.50) < rural ($55.49). 
 
 ![PyBer-Summary DataFrame](/analysis/PyBer-Summary-DataFrame.png)
-Figure
+ ### Figure 1. Summary of rideshares between city types
+ 
+The line graph of the total fare by city type (**Figure 2**) shows the weekly fare of each city type over 16 weeks (January - April). 
+
+- The trend for weekly fares is  as follows: below $500 for rural neighborhoods, between $500-$1500 for suburban neighborhoods, and between $1500 - $2500  for urban neighborhoods. 
+
+- The last week of February was the week with peak fares for all the city types. The following week (1st week of March), it dropped for each city type. 
+  The weekly fares fluctuated differently for each city type (peaks and dips are different in each city type). 
+    - The fare for suburban ride-shares was lower than other weeks in the 1st week of January, 1st week of March, and 2nd week of April. 
+    - The lowest in fares for both urban and suburban ride shares is for the 1st week of January.
 
 ![PyBer-Fare Summary](/analysis/PyBer_fare_summary.png)
+### Figure 2. The line graph for fare by city type
 
-There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type. (7 pt)
 ## Summary
 
-Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
+In summary, the total rides, the total drivers, and the total fares had larger gaps between city types. Therefore the earnings are significantly different between city types. There may be factors that affect the differences in ride-shares such as infrastructure (e.g. roads and conditions and accesibility, gas stations, phone usage, internet access etc.) and the availaibility of automobiles (cars, vans etc.). It may also be in part due to the affordability for people for ride-shares. It is obvious that the urban cities have more drivers and more ride-shares. The suburban areas falls between rural and urban cities and that can be expected. 
 
-There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
+The following recommendation can be made based on this analysis.
+1. Lower the rates for ride shares for rural and suburban cities while keeping fare rates among urban ride-shares. 
+2. Increase the number of drivers to rural and suburban cities (it may also need to encourage drivers by providing incentives etc. for ride-shares in those under previledged neighborhoods). 
+3. Initiate discussions with city administrations on ways to improve infrastructure in needed neighborhoods (especially in rural areas).  

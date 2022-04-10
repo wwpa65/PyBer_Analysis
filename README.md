@@ -35,7 +35,7 @@ The line graph of the total fare by city type (**Figure 2**) shows the weekly fa
     - The lowest in fares for both urban and suburban ride shares is for the 1st week of January.
 
 ![PyBer-Fare Summary](/analysis/PyBer_fare_summary.png)
-### Figure 2. The line graph for fare by city type
+### Figure 2. The multi-line graph for fare by city type
 
 ## Summary
 
@@ -43,7 +43,7 @@ In summary, the total rides, the total drivers, and the total fares had larger g
 
 The following recommendation can be made based on this analysis.
 1. Lower the rates for ride shares for rural and suburban cities while keeping fare rates among urban ride-shares. 
-2. Increase the number of drivers to rural and suburban cities (it may also need to encourage drivers by providing incentives etc. for ride-shares in those under previledged neighborhoods). 
+2. Increase the number of drivers to rural and suburban cities (it may also need to encourage drivers by providing incentives, provisions for gas etc. for ride-shares in those under previledged neighborhoods). 
 3. Initiate discussions with city administrations on ways to improve infrastructure in needed neighborhoods (especially in rural areas).  
 
 The link to the Notebook: [PyBer_Challenge](PyBer_Challenge.ipynb)

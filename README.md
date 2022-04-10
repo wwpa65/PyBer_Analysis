@@ -1,6 +1,6 @@
 # PyBer_Analysis
 
-# Analysis of PyBer Ride Sharing Data
+# Analysis of PyBer Ride-sharing Data
 
 ## Overview of the analysis
 

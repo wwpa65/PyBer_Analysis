@@ -22,6 +22,12 @@ Analysis (14 points)
 The written analysis has the following:
 ## Overview of the analysis
 The purpose of the new analysis is well defined. (3 pt)
+
+creating visualizations of rideshare data for PyBer to help improve access to ride-sharing services and determine affordability for underserved neighborhoods. 
+
+Using your Python skills and knowledge of Pandas, you’ll create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, you’ll create a multiple-line graph that shows the total weekly fares for each city type. 
+
+Software Used: Python/ Pandas, Matplotlib, NumPy
 ## Results
 There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type. (7 pt)
 ## Summary

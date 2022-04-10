@@ -21,6 +21,8 @@ Analysis (14 points)
 
 The written analysis has the following:
 ## Overview of the analysis
+Explain the purpose of the new analysis.
+
 The purpose of the new analysis is well defined. (3 pt)
 
 creating visualizations of rideshare data for PyBer to help improve access to ride-sharing services and determine affordability for underserved neighborhoods. 
@@ -30,10 +32,16 @@ Using your Python skills and knowledge of Pandas, you’ll create a summary Data
 Software Used: Python/ Pandas, Matplotlib, NumPy
 ## Results
 
+There is a huge difference in the number of rides between city types (Rural (< Suburban < Urban)(See Figure 1 below). Therefore the earnings from the city types have larger gaps. 
 
-![PyBer-Summary DataFrame](/analysis/PyBer summary DataFrame.png)
+![PyBer-Summary DataFrame](/analysis/PyBer-Summary-DataFrame.png)
 Figure
+
+![PyBer-Fare Summary](/analysis/PyBer_fare_summary.png)
 
 There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type. (7 pt)
 ## Summary
+
+Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
+
 There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)

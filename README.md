@@ -45,3 +45,5 @@ The following recommendation can be made based on this analysis.
 1. Lower the rates for ride shares for rural and suburban cities while keeping fare rates among urban ride-shares. 
 2. Increase the number of drivers to rural and suburban cities (it may also need to encourage drivers by providing incentives etc. for ride-shares in those under previledged neighborhoods). 
 3. Initiate discussions with city administrations on ways to improve infrastructure in needed neighborhoods (especially in rural areas).  
+
+The link to the Notebook: [PyBer_Challenge](PyBer_Challenge.ipynb)
